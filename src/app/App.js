@@ -1,9 +1,10 @@
 import React from 'react';
+import HookSwitcher from '../hookSwitcher';
 
 export default function App() {
   return (
-    <h1>
-      Hi
-    </h1>
+    <div>
+      <HookSwitcher />
+    </div>
   )
 }
